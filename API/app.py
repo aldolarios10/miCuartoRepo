@@ -10,6 +10,7 @@ def get_familia():
     rows = ["Amin", "Marce", "Miranda"]
     return rows
 
+
 @app.get("/superheroesDC")
 def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
@@ -17,4 +18,7 @@ def get_superheroes():
 
 
 
-
+@app.get("/cursosPlatzi")
+def get_cursos():
+    rows = ["Curso de Python", "Curso de Java", "Curso de JavaScript", "Curso de C++", "Curso de C#", "Curso de PHP"]
+    return rows
